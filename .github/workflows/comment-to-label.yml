@@ -1,0 +1,23 @@
+ 
+
+name: Comment to label
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  issueLabeled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Malformed issue
+        uses: peter-evans/create-or-update-comment@v1
+        if: github.event.label.name == 'malformed'
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          body: >
+            This request is entirely or partially incorrectly formatted. Make sure you have followed the issue template, that all fields have been compiled and that you have acknowledged and ticked the statements at the top of the template. The request will be reviewed as soon as it is correctly formatted.
+            
+            
+            Please leave a comment after the needed changes have been implemented. In case of no answer from the author, this issue will be closed.
