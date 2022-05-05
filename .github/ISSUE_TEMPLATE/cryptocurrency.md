@@ -8,8 +8,8 @@ labels: 'crypto: coin'
 <!-- This template helps us to have a clear overview of the asset being proposed. Please answer to all questions -->
 
 <!-- Make sure the following statements are correct, then tick them by placing an X inside the brackets (result: [X]) -->
-- [ ] I confirm there are no other issues about this asset (open or closed)
-- [ ] I understand that Haveno expects the project applying for being listed to take care of the PR for the actual implementation
+- [ ] I confirm there are no other open issues about this asset
+- [ ] I understand that to actually add the asset to Haveno, a PR from the developers/community of the proposed asset might be necessary
 - [ ] I understand that adding the asset is at discretion of the Haveno Core Team and applying doesn't necessarily imply acceptance
 
 ### What's the ticker symbol of the project?
