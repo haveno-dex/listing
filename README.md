@@ -26,5 +26,3 @@ The submission will go through several stages:
 - **Review stage**: The proposal is correctly formatted and is being reviewed. At this stage, the community is welcome to voice their opinion about the asset being proposed.
 - **PR needed**: The proposal has been accepted. Now a pull request is needed to support the asset on Haveno. 
 - **Closed**: A proposal at this stage was either rejected or successfully accepted and the asset listed on Haveno.
-
-A [GitHub project is available](https://github.com/orgs/haveno-dex/projects/6) for a visual representation of the status of each request.
